@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.DevEnvironment" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/your_primary</item>
+        <item name="colorOnPrimary">@color/your_on_primary</item>
+        <item name="colorPrimaryContainer">@color/your_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/your_on_primary_container</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/your_secondary</item>
+        <item name="colorOnSecondary">@color/your_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/your_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/your_on_secondary_container</item>
+
+        <!-- Background and Surface -->
+        <item name="colorOnBackground">@color/your_on_background</item>
+        <item name="colorSurface">@color/your_surface</item>
+        <item name="colorOnSurface">@color/your_on_surface</item>
+
+        <!-- Optional: StatusBar -->
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+    </style>
+
+</resources>
